@@ -1,25 +1,78 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lemonchiffon;
 }
 
-.header {
+
+header 
+{height:auto;
+width:auto;
+border: fit-content darkblue;
+margin-inline: center;
+text-align:auto;
+margin:30px darkblue;
+padding:20px blue
+;
+}
+
+
+
+section {
+  width: auto;
+  /* Sets top and bottom margin to 20px. Auto will center element */
+  margin: 20px auto;
+  border: 5px solid darkblue;
+  background-color: #ffffd4;
+}
+.links,
+h1,
+h2,
+h3,
+h4
+ {margin: auto;
+  width: 50%;
+  border: 3px solid  burlywood;
+  padding: 10px;
+text-align: center;
+margin:auto;
+text-align:center;
+
+}
+
+/* a, {}
+
+.links div{
   padding: 20px;
   display: inline-block;
-  margin-left: 20px;
+  margin:auto;
+  text-align:center;
   float: right;
   color: rgb(86, 81, 174);
-}
-.header div  
+} */
 
-.hero
-{height: 800px;
-width: 100%;
-margin-bottom: 25px;
-background-image: url("../images/pexels-pixabay-63294.jpg");
-background-size: cover;
-background-position: center;
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin: center;
 }
+.contact-us-email
+{ max-height: 200px;
+  margin: center;
+color: rgb(86, 81, 174);
+margin-left: 150px;
+text-align: center;
+display: inline-block
+}
+.contact-us-email img
+{
+  margin: 10px auto;
+ max-width: 300px;
+  
+}
+.button {margin: 10px auto;
+  max-width: 300px}
