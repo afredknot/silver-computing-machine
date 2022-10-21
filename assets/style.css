@@ -4,38 +4,61 @@
   margin: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: lemonchiffon;
+    background-color: rgb(145, 155, 126);
 }
 
 
-header,h1
+header
 {height:auto;
 width:auto;
-border: fit-content darkblue;
+border: 15px grey;
 margin-inline: center;
-text-align:auto;
-margin:30px darkblue;
-padding:20px blue
+text-align:left;
+margin:30px rgb(152, 104, 104);
+padding:20px grey
 ;
 }
 
 
 
-section {
+section, .nav {
   width: auto;
   /* Sets top and bottom margin to 20px. Auto will center element */
   margin: 20px auto;
-  border: 5px solid darkblue;
-  background-color: #ffffd4;
+  border: 5px solid grey;
+ ;
+  text-align: center
 }
-.links,
-h1,
-h2,
+.header h1 h2,
+{margin: auto;
+  width: 50%;
+  border: 3px solid grey;
+  padding: 10px;
+text-align: right;
+display:inline-block
+}
+ .nav
+  {margin: 50px auto;
+    width: 65%;
+    
+  text-align: center;
+  display: inline-block;
+  padding:05px 5px
+ /* ; */
+}
+ul, li
+{ display: inline-block;
+  text-align:right;
+  list-style-type: none;
+  font-size: 20px;}
+
 h3,
-h4
+h4,
+h5,
+h6
  {margin: auto;
   width: 50%;
-  border: 3px solid  burlywood;
+  border: 3px solid  grey;
   padding: 10px;
 text-align: center;
 margin:auto;
@@ -58,23 +81,35 @@ text-align:center;
 .content {
   width: 75%;
   display: inline-block;
-  margin: center;
+  margin: auto;
 }
 .contact-us-email
-{ max-height: 200px;
-  margin: center;
+{ max-height: 100px;
+  margin: center ;
 color: rgb(86, 81, 174);
-margin-left: 150px;
+border-bottom: 100px;
+border-right: 200px;
+padding: 200px;
 text-align: center;
 display: inline-block
 }
 .contact-us-email img
 {
   margin: 10px auto;
- max-width: 300px;
+ max-width: 200px;
   
 }
+/* {text-align:center;
+  border-bottom: 50px;
+  padding: 10px;} */
+
+ .contact-us-phone, .update-contact-information{ text-align:center;
+border-bottom: 50px;
+padding: 10px;}
+
 .button {margin: 10px auto;
-  max-width: 300px}
+  max-width: 300px;
+  align-items:center
+}
 
   .footer {text-align:center}
