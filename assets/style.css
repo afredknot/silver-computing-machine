@@ -29,9 +29,9 @@ section, .nav {
  ;
   text-align: center
 }
-.header h1 h2,
+ h1, h2
 {margin: auto;
-  width: 50%;
+  width : 50%;
   border: 3px solid grey;
   padding: 10px;
 text-align: right;
